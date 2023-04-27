@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Barbosa Portifólio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/mobile-portifolio.css">
+    <link rel="stylesheet" href="/styles/desktop-portifolio.css" media="screen">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./images/icon.png">
+</head>
+
+<body>
+    <header class="hd-1">
+
+        <div class="logo">
+            <a href="index.html">
+                <h1 style="text-align: center;"><p class="p1">&lt;/&gt;</p> João </h1>
+            </a>
+        </div>
+        <div id="icon">
+            <img src="./images/burgermenu.svg" alt="burger menu" onclick="MenuClick()">
+        </div>
+        <div id="itens1">
+            <ul>
+                <a href="#">
+                    <li>Home</li>
+
+                </a>
+                <a href="#sobre1">
+                    <li>Sobre</li>
+                </a>
+                <a href="#experiencia1">
+                    <li>Experiência</li>
+                </a>
+                <a href="#projetos">
+                    <li>Projetos</li>
+                </a>
+                <li class="modo" onclick="mudar()" ><img src="images/sun.png" alt="" srcset="" id="lua"></li>
+            </ul>
+
+        </div>
+    </header>
+    <div id="itens">
+        <ul>
+            <a href="#" onclick="nav()">
+
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+                <span class="hh">Home</span>
+            </a>
+            <a href="#sobre" onclick="nav()">
+                <br>
+                <span class="material-symbols-outlined">
+                    More
+                </span>
+                <span class="change">Sobre</span>
+            </a>
+            <a href="#experiência" onclick="nav()">
+                <br>
+                <span class="material-symbols-outlined">
+                    Star
+                </span>
+                <span class="change">Experiência</span>
+            </a>
+            <a href="#projetos" onclick="nav()">
+                <br>
+                <span class="material-symbols-outlined">
+                    description
+                </span>
+                <span class="change">Projetos</span>
+            </a>
+            <br><br><br> <span class="modo" onclick="mudar()"><img src="images/sun.png" alt=""></span>
+
+
+        </ul>
+    </div>
+    <div class="segunda">
+        <div class="ladoalado">
+            <h1 class="olá">Olá, eu sou</h1>
+            <h1 class="nome">João Vitor</h1>
+            <h1 class="front">Front-end dev</h1>
+            <div class="button">
+                <a href="https://www.linkedin.com/in/barbosa1712/"><button
+                        class="linkedin">LinkedIn</button></a>
+                <a href="https://github.com/Barbosajv"><button class="github">Github</button></a>
+            </div>
+        </div>
+        <div class="pcguy">
+            <img src="./images/pcguy.png" alt="animated guy" width="600px">
+        </div>
+    </div>
+    <div class="me" id="sobre" data-aos="fade-up">
+        <div class="joaoft">
+            <img src="/images/me.jpeg" alt="me">
+        </div>
+        <div>
+            <h1>SOBRE MIM</h1>
+        </div>
+        <div>
+            <h2>Belo Horizonte, Minas Gerais</h2>
+        </div>
+        <div>
+            <p>Olá! João Vitor Barbosa, um estudante do 3° ano do ensino médio e atuo na área de
+                Front-end. Atualmente, estou me dedicando a aprimorar minhas habilidades em JavaScript, ReactJS e
+                Vue.js.
+                <br><br>
+                Além disso, possuo habilidades avançadas em HTML e CSS, mas busco sempre aperfeiçoar minhas
+                habilidades para
+                me tornar o melhor profissional possível.
+                <br><br>
+
+                Estou constantemente estudando por conta própria, fazendo cursos e adquirindo conhecimento em conteúdos
+                internacionais para estar sempre atualizado com as melhores práticas e tendências da área. Meu objetivo
+                é sempre buscar a excelência em tudo o que faço e me esforçar para alcançar minhas metas.
+                <br><br>
+
+                Após concluir o ensino médio, pretendo seguir na área de tecnologia e cursar Ciências da Computação.
+                Estou animado com as oportunidades e desafios que o campo oferece e mal posso esperar para continuar
+                aprendendo e crescendo como profissional.
+            </p>
+        </div>
+        <a href="" id="experiência"><button>Whatsapp</button></a>
+    </div>
+    <div class="me-1" data-aos="fade-up" id="sobre1">
+        <div class="joaoft-1">
+            <img src="./images/me2.jpeg" alt="me">
+        </div>
+        <div>
+            <h1>SOBRE MIM</h1>
+
+            <h2>Belo Horizonte, Minas Gerais</h2>
+            <p>Olá! Meu nome é João Vitor Barbosa, sou um estudante de ciência da Computação e atuo na área de
+                Front-end, Porém, atualmente, estou me dedicando a conhecer novas tecnologias e aprimorar minhas habilidades na parte web
+                . Além disso, possuo habilidades em HTML, CSS, Java, MYSQL e PYTHON, sendo todas elas em nível básico.
+
+                Estou constantemente estudando por conta própria, fazendo cursos e adquirindo conhecimento em conteúdos
+                internacionais para estar sempre atualizado com as melhores práticas e tendências da área. Meu objetivo
+                é sempre buscar a excelência em tudo o que faço e me esforçar para alcançar minhas metas.
+            </p>
+            <a href="#zap!!!!!!!!!!!" id="experiencia1"><button>Whatsapp</button></a>
+        </div>
+    </div>
+
+    <div class="exp" data-aos="fade-up">
+        <div>
+            <h1>Desenvolvedor</h1>
+        </div>
+        <div>
+            <p>Olá, Meu none é João Vitor Barbosa, tenho 19 anos e estou buscando uma oportunidade para meu primeiro
+                estágio na área de Programação. Pretendo seguir carreira em Java, porém como primeira oportunidade estou disposto a qualquer área. Apresento abaixo alguns dos projetos pessoais que desenvolvi
+                para aprimorar minhas habilidades:</p>
+        </div>
+    </div>
+
+    <section class="tdsp" id="projetos">
+
+        <div class="projetos" data-aos="fade-up">
+
+            <div>
+                <h1 class="pmob">PROJETOS</h1>
+                <a href="https://github.com/Barbosajv/Web-Page"><img src="/images/webpage.png"
+                        alt="web page"></a>
+            </div>
+            <div>
+                <h1 class="web">Web Page</h1>
+            </div>
+            <div>
+                <h2>Página inicial de cadastro desenvolvida utilizando html, css e js</h2>
+            </div>
+            <div>
+                <p>Tecnologias usadas no projeto: HTML, CSS e JavaScrpit</p>
+            </div>
+            <a href="https://github.com/Barbosajv/Web-Page"><button>Visualizar</button></a>
+        </div>
+        <div class="projetos" data-aos="fade-up">
+            <div>
+                <a href="https://github.com/Barbosajv/technoblade-game"><img src="./images/techgame.png"
+                        alt="technoblade-game"></a>
+            </div>
+            <div>
+                <h1>Jogo</h1>
+            </div>
+            <div>
+                <h2>Jogo do dinossauro modificado - technoblade</h2>
+            </div>
+            <div>
+                <p>Tecnologias usadas no projeto: HTML, CSS e JavaScript</p>
+            </div>
+            <a href="https://github.com/Barbosajv/technoblade-game"><button>Visualizar</button></a>
+        </div>
+        <div class="projetos" data-aos="fade-up">
+            <div>
+                <a href="https://github.com/Barbosajv/valorant"><img src="/images/valorant.png"
+                        alt="Valorant Landing Page"></a>
+            </div>
+            <div>
+                <h1>Valorant Landing Page</h1>
+            </div>
+            <div>
+                <h2>Projeto Desenvolvido usando apenas HTML e CSS
+                </h2>
+            </div>
+            <div>
+                <p>Tecnologias usadas no projeto: HTML e CSS</p>
+            </div>
+            <a href="https://github.com/Barbosajv/valorant"><button>Visualizar</button></a>
+        </div>
+        <div class="projetos" data-aos="fade-up">
+            <div>
+                <a href="https://github.com/Barbosajv/acailandingpage"><img src="/images/acai.png" alt="Landing Page Acai da Bel"></a>
+            </div>
+            <div>
+                <h1>Landing Page feita para o Açaí da Bel</h1>
+            </div>
+            <div>
+                <h2>Projeto totalmente responsivo feito para o Açaí da Bel</h2>
+            </div>
+            <div>
+                <p>Tecnologias usadas no projeto: HTML e CSS</p>
+            </div>
+            <a href="https://github.com/Barbosajv/acailandingpage"><button>Visualizar</button></a>
+        </div>
+    </section>
+    <div class="fim" data-aos="fade-up">
+        <h1>&copy; Site desenvolvido por <span>João Vitor</span>
+        </h1>
+    </div>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/js/projeto-portifolio.js"></script>
+</body>
+
+</html>
